@@ -23,6 +23,7 @@
     "node": "0.10.x"
   },
   "scripts": {
+    "hubot": "./bin/hubot --adapter slack",
     "test": "echo 'test'"
   }
 }
