@@ -23,7 +23,11 @@
     "node": "0.10.x"
   },
   "scripts": {
+    "dev": "./bin/hubot",
     "hubot": "./bin/hubot --adapter slack",
     "test": "echo 'test'"
+  },
+  "devDependencies": {
+    "serve": "^7.2.0"
   }
 }
