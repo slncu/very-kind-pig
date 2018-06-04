@@ -25,7 +25,8 @@
   "scripts": {
     "dev": "./bin/hubot",
     "hubot": "./bin/hubot --adapter slack",
-    "test": "echo 'test'"
+    "test": "echo 'test'",
+    "restart": "forever restart -c 'npm run hubot' ./"
   },
   "devDependencies": {
     "serve": "^7.2.0"
