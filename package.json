@@ -5,6 +5,7 @@
   "author": "Shunsuke Urita",
   "description": "yasasi buta san",
   "dependencies": {
+    "axios": "^0.18.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
     "hubot-google-images": "^0.2.7",
@@ -29,6 +30,8 @@
     "restart": "forever restart -c 'npm run hubot' ./"
   },
   "devDependencies": {
-    "serve": "^7.2.0"
+    "lodash.find": "^4.6.0",
+    "serve": "^7.2.0",
+    "xml2json": "^0.11.2"
   }
 }

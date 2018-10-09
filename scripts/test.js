@@ -1,7 +1,7 @@
+const utils = require('../utils')
+
 module.exports = robot => {
-  const getRandom = (max) => {
-    return Math.floor(Math.random() * Math.floor(max));
-  }
+  const { getRandom } = utils;
 
   const fight = [
     'https://gyazo.com/f4b9279043553fa5cabc3df06f79ea34',
@@ -23,5 +23,9 @@ module.exports = robot => {
 
   robot.hear(/(魔剤|まざい)/i, (res) => {
     res.send(mazai[getRandom(mazai.length)])
+  })
+
+  robot.hear(/(完全に理解した)/i, (res) => {
+    res.send('https://gyazo.com/c07b9bea61e61dc3b8e56ccee46fa546')
   })
 }
