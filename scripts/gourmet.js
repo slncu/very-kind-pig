@@ -22,7 +22,7 @@ module.exports = robot => {
     })
   }
 
-  robot.respond((/(test) (.*)/i), async (res) => {
+  robot.respond((/(meshi) (.*)/i), async (res) => {
     const keyword = res.match[2];
     if(!await getShop(keyword)) {
       res.send(`${keyword}なんてものはない`)
