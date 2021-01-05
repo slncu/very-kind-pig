@@ -5,7 +5,7 @@
   "author": "Shunsuke Urita",
   "description": "yasasi buta san",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "cron": "^1.7.1",
     "hubot": "^3.3.2",
     "hubot-diagnostics": "1.0.0",
